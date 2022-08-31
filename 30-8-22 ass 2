@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+void main()
+{
+char s[1000];
+printf("enter string:");
+gets(s);
+int i;
+for(i=0;s[i]!='\0';i++)
+{
+if(s[i]=='a')
+s[i]=s[i]-32;
+}
+printf("output");
+puts(s);
+}
