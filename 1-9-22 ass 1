@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+ int x;
+int ans;
+printf("enter value\n);
+scand("%d",&x);
+ans=findoddeven(x);
+if(ans==1)
+printf("\n even");
+else
+printf("\n odd");
+}
+int findoddeven(int x);
+{
+if(x%2==0)
+return 1;
+else 
+return 0;
+}
